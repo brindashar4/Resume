@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quali_array">
+        <item>BTech</item>
+        <item>BSc</item>
+        <item>MTech</item>
+        <item>MS</item>
+        <item>PhD</item>
+    </string-array>
+</resources>

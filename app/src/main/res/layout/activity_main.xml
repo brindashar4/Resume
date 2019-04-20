@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="30dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:text="@string/app_name"/>-->
+
+    <Button
+        android:id="@+id/formbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:text="Fill out ResuME"
+        android:onClick="fill" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steps: \n1. Fill out your details\n2. Click on 'Create PDF' to create a pdf of your resume\n3. Download the pdf and you're good to go!"/>
+
+</RelativeLayout>
