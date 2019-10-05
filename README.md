@@ -1,2 +1,2 @@
 # Resume
-Android app
+An Android application that generates resume :)
